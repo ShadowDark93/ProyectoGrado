@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Device;
+use App\Models\DeviceType;
 use Illuminate\Http\Request;
 
 class DeviceController extends Controller
@@ -14,7 +15,10 @@ class DeviceController extends Controller
      */
     public function index()
     {
-        return view('Devices.index');
+        $devices=Device::all()->where('users_id', Auth()->user()->id);
+
+        return view('Devices.index', compact('devices'));
+        // return $devices;
     }
 
     /**
@@ -24,7 +28,9 @@ class DeviceController extends Controller
      */
     public function create()
     {
-        //
+        $dt=DeviceType::all();
+        return view('Devices.create', compact('dt'));
+        // return $dt;
     }
 
     /**
@@ -35,7 +41,15 @@ class DeviceController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'device_types_id' => 'required',
+            'serial' => 'required',
+            'location' => 'required',
+        ]);
+
+        $device=Device::create($request->all());
+
+        return redirect()->view('Devices.index')->with('created','ok');
     }
 
     /**
@@ -57,7 +71,9 @@ class DeviceController extends Controller
      */
     public function edit(Device $device)
     {
-        //
+        $dev=Device::FindOrFail($device->id);
+        $type=DeviceType::all();
+        return view('Devices.edit', compact('dev','type'));
     }
 
     /**

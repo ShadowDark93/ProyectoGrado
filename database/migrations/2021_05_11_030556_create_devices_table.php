@@ -20,8 +20,8 @@ class CreateDevicesTable extends Migration
             $table->foreignId('users_id')->references('id')->on('users');
             $table->string('serial');
             $table->string('location');
-            $table->char('status')->default('1'); // si el dispositivo se encuentra encendido o apagado
-            $table->char('state')->default('1'); //si es dispositivo se encuentra activo o inactivo
+            $table->char('status')->default('1')->nullable(); // si el dispositivo se encuentra encendido o apagado
+            $table->char('state')->default('1')->nullable(); //si es dispositivo se encuentra activo o inactivo
             $table->timestamps();
         });
     }

@@ -134,62 +134,62 @@
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                             Estudiante de último semestre de ingeniería de sistemas encargado de la codificacion principal
-                            Full Stack
+                            Full Stack encargado del diseño del software basado en Laravel, MySQL y Bootstrap.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                         <img src="img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                         <h3>David Ortega</h3>
-                        <h4>Desarrollador &amp; Estudiante</h4>
+                        <h4>Desarrollador</h4>
                     </div>
 
                     <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram
-                            malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                            Estudiante de ingeniería de sistemas encargada del diseño, mantenimiento de los datos,
+                            busquedas especializadas, estructuras de funcionales de ML, IA y soporte en Arduino.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                         <img src="img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                        <h3>Sara Wilsson</h3>
-                        <h4>Designer</h4>
+                        <h3>Vivian Vargas</h3>
+                        <h4>Deseñadora</h4>
                     </div>
 
                     <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
-                            minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                            Estudiante de último semestre de ingenieria de sistemas encargado de los
+                            requerimientos funcionales del proyecto, diagramas electronicos y codificacion
+                            del prototipo.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                         <img src="img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                        <h3>Jena Karlis</h3>
-                        <h4>Store Owner</h4>
+                        <h3>Julian Orjuela</h3>
+                        <h4>Desarrollador</h4>
                     </div>
 
                     <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim
-                            velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum
-                            veniam.
+                            Ingeniería de Sistemas y coordinadora E-Learning de la Universidad Cooperativa de Colombia
+                            campus Ibagué-Espinal. Co-investigadora en proyectos de investigación en Software y
+                            ML.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                         <img src="img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                        <h3>Matt Brandon</h3>
-                        <h4>Freelancer</h4>
+                        <h3>Nelly Clavijo</h3>
+                        <h4>Directora Metodolófica</h4>
                     </div>
 
                     <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
-                            culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
-                            quid.
+                            Profesor Investigador de la Universidad Cooperativa de Colombia de la sede Ibagué– Espinal,
+                            Grupo de investigación AQUA, Candidato a Doctor en Ingeniería de la UNAB.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                         <img src="img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                        <h3>John Larson</h3>
-                        <h4>Entrepreneur</h4>
+                        <h3>Fernando Gutierrez</h3>
+                        <h4>Director Técnico</h4>
                     </div>
 
                 </div>
@@ -214,25 +214,25 @@
                         <div class="info">
                             <div class="address">
                                 <i class="icofont-google-map"></i>
-                                <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <h4>Ubicación:</h4>
+                                <p>1, Cl. 10 ##64, Ibagué, Tolima, Colombia</p>
                             </div>
 
                             <div class="email">
-                                <i class="icofont-envelope"></i>
-                                <h4>Email:</h4>
-                                <p>info@example.com</p>
+                                <i class="fas fa-globe-americas"></i>
+                                <h4>Web:</h4>
+                                <p>www.ucc.edu.co</p>
                             </div>
 
                             <div class="phone">
                                 <i class="icofont-phone"></i>
-                                <h4>Call:</h4>
-                                <p>+1 5589 55488 55s</p>
+                                <h4>Telefono:</h4>
+                                <p>+573005460136</p>
                             </div>
 
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7955.672962027924!2d-75.23764047400475!3d4.441519383727541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcad3203b0739d0ff!2sSede%20Administrativa%20Universidad%20Cooperativa!5e0!3m2!1ses!2sbg!4v1620933863385!5m2!1ses!2sbg"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
 
                     </div>
@@ -241,26 +241,26 @@
                         <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <label for="name">Your Name</label>
+                                    <label for="name">Nombre</label>
                                     <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
                                         data-msg="Please enter at least 4 chars" />
                                     <div class="validate"></div>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="name">Your Email</label>
+                                    <label for="name">Correo</label>
                                     <input type="email" class="form-control" name="email" id="email" data-rule="email"
                                         data-msg="Please enter a valid email" />
                                     <div class="validate"></div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="name">Subject</label>
+                                <label for="name">Asunto</label>
                                 <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"
                                     data-msg="Please enter at least 8 chars of subject" />
                                 <div class="validate"></div>
                             </div>
                             <div class="form-group">
-                                <label for="name">Message</label>
+                                <label for="name">Mensaje</label>
                                 <textarea class="form-control" name="message" rows="10" data-rule="required"
                                     data-msg="Please write something for us"></textarea>
                                 <div class="validate"></div>

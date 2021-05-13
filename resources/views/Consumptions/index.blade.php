@@ -3,6 +3,10 @@
 
 @section('content')
 
-reportes de los dispositivos
+<div class="container">
+    <div class="div">
+        
+    </div>
+</div>
 
 @endsection
