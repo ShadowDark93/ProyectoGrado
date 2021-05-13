@@ -16,7 +16,7 @@ class CreateUsersTable extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->engine ="InnoDB";
             $table->id();
-            $table->foreignId('userTypes_id')->references('id')->on('user_Types');
+            $table->foreignId('userTypes_id')->default('3')->constrained('user_types');
             $table->string('name');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();

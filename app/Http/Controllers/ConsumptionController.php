@@ -14,7 +14,7 @@ class ConsumptionController extends Controller
      */
     public function index()
     {
-        //
+        return view('Consumptions.index');
     }
 
     /**

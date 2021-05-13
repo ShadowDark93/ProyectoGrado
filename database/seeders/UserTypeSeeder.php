@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\UserType;
 use Illuminate\Database\Seeder;
 
 class UserTypeSeeder extends Seeder
@@ -13,6 +14,17 @@ class UserTypeSeeder extends Seeder
      */
     public function run()
     {
-        //
+        UserType::create([
+            'description' => 'SUPERADMIN',
+        ]);
+
+        UserType::create([
+            'description' => 'ADMIN',
+        ]);
+
+        UserType::create([
+            'description' => 'USER',
+        ]);
+
     }
 }
