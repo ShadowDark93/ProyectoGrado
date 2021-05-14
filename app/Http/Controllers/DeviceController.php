@@ -8,6 +8,17 @@ use Illuminate\Http\Request;
 
 class DeviceController extends Controller
 {
+
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -49,7 +60,7 @@ class DeviceController extends Controller
 
         $device=Device::create($request->all());
 
-        return redirect()->view('Devices.index')->with('created','ok');
+        return redirect()->route('devices.index')->with('created','ok');
     }
 
     /**
@@ -72,8 +83,10 @@ class DeviceController extends Controller
     public function edit(Device $device)
     {
         $dev=Device::FindOrFail($device->id);
-        $type=DeviceType::all();
-        return view('Devices.edit', compact('dev','type'));
+        $dt=DeviceType::all();
+        return view('Devices.edit', compact('dev','dt'));
+
+        // return $dev;
     }
 
     /**
@@ -85,7 +98,14 @@ class DeviceController extends Controller
      */
     public function update(Request $request, Device $device)
     {
-        //
+        $dev=Device::find($device->id);
+        $dev->device_types_id=$request->get('device_types_id');
+        $dev->serial=$request->get('serial');
+        $dev->location=$request->get('location');
+        $dev->state=$request->get('state');
+        $dev->save();
+
+        return redirect()->route('devices.index')->with('edited', 'ok');
     }
 
     /**

@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Consumption;
+use App\Models\Device;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,6 +25,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $devices=Device::all()->where('users_id', Auth()->user()->id);
+        $consumo=Consumption::all();
+        return view('home', compact('devices', 'consumo'));
     }
 }

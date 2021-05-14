@@ -7,6 +7,17 @@ use Illuminate\Http\Request;
 
 class ConsumptionController extends Controller
 {
+
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +25,11 @@ class ConsumptionController extends Controller
      */
     public function index()
     {
-        return view('Consumptions.index');
+
+        $consumption=Consumption::all();
+
+        return view('Consumptions.index', compact('consumption'));
+        // return $consumption;
     }
 
     /**

@@ -47,7 +47,7 @@
 
     <!-- ======= Header ======= -->
     <header id="header">
-        <div class="d-flex flex-column">
+        <div class="d-flex flex-column position-fixed">
 
             <div class="profile">
                 <img src="{{ asset('img/profile-img.png') }}" alt="" class="img-fluid rounded-circle">
